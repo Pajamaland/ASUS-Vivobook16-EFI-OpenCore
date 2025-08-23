@@ -8,7 +8,8 @@ Ryzen 7 7730U (with Vega graphics)
 Crucial P2 1TB NVMe SSD  
 
 ## Issues
-- Sleep will not work, *ever*. This is due to the fact that the laptop doesn't support S3, only S0ix.  You can bypass this by just using hibernation. On an SSD, the wake time isn't too bad.  
+- Sleep will not work, *ever*. This is due to the fact that the laptop doesn't support S3, only S0ix.  
+  You can bypass this by just using hibernation. (``sudo pmset -a hibernatemode 25``) On an SSD, the wake time isn't too bad.  
 - Hardware acceleration for Chromium-based applications & Firefox not working (will crash immediately).  
 - Can't use Fn lock.  
   
