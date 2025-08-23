@@ -693,13 +693,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>CPUFriend.kext</string>
+				<string>AMDRyzenCPUPowerManagement.kext</string>
 				<key>Comment</key>
-				<string>CPUFriend.kext</string>
+				<string>AMDRyzenCPUPowerManagement.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/CPUFriend</string>
+				<string>Contents/MacOS/AMDRyzenCPUPowerManagement</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -711,13 +711,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>CPUFriendDataProvider.kext</string>
+				<string>SMCAMDProcessor.kext</string>
 				<key>Comment</key>
-				<string>CPUFriendDataProvider.kext</string>
+				<string>SMCAMDProcessor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/SMCAMDProcessor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -726,82 +726,6 @@
 				<string>Contents/Info.plist</string>
 			</dict>
 		</array>
-		<key>28</key>
-		<dict>
-			<key>Arch</key>
-			<string>Any</string>
-			<key>BundlePath</key>
-			<string>CPUFriend.kext</string>
-			<key>Comment</key>
-			<string>CPUFriend.kext</string>
-			<key>Enabled</key>
-			<true/>
-			<key>ExecutablePath</key>
-			<string></string>
-			<key>MaxKernel</key>
-			<string></string>
-			<key>MinKernel</key>
-			<string></string>
-			<key>PlistPath</key>
-			<string>Contents/Info.plist</string>
-		</dict>
-		<key>29</key>
-		<dict>
-			<key>Arch</key>
-			<string>Any</string>
-			<key>BundlePath</key>
-			<string>CPUFriendDataProvider.kext</string>
-			<key>Comment</key>
-			<string>CPUFriendDataProvider.kext</string>
-			<key>Enabled</key>
-			<true/>
-			<key>ExecutablePath</key>
-			<string></string>
-			<key>MaxKernel</key>
-			<string></string>
-			<key>MinKernel</key>
-			<string></string>
-			<key>PlistPath</key>
-			<string>Contents/Info.plist</string>
-		</dict>
-		<key>30</key>
-		<dict>
-			<key>Arch</key>
-			<string>Any</string>
-			<key>BundlePath</key>
-			<string>AMDRyzenCPUPowerManagement.kext</string>
-			<key>Comment</key>
-			<string>AMDRyzenCPUPowerManagement.kext</string>
-			<key>Enabled</key>
-			<true/>
-			<key>ExecutablePath</key>
-			<string></string>
-			<key>MaxKernel</key>
-			<string></string>
-			<key>MinKernel</key>
-			<string></string>
-			<key>PlistPath</key>
-			<string>Contents/Info.plist</string>
-		</dict>
-		<key>31</key>
-		<dict>
-			<key>Arch</key>
-			<string>Any</string>
-			<key>BundlePath</key>
-			<string>SMCAMDProcessor.kext</string>
-			<key>Comment</key>
-			<string>SMCAMDProcessor.kext</string>
-			<key>Enabled</key>
-			<true/>
-			<key>ExecutablePath</key>
-			<string></string>
-			<key>MaxKernel</key>
-			<string></string>
-			<key>MinKernel</key>
-			<string></string>
-			<key>PlistPath</key>
-			<string>Contents/Info.plist</string>
-		</dict>
 		<key>Block</key>
 		<array/>
 		<key>Emulate</key>
@@ -1789,7 +1713,7 @@
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1 npci=0x2000 -vi2c-force-polling</string>
+				<string>-v debug=0x100 keepsyms=1 npci=0x2000 -vi2c-force-polling</string>
 				<key>csr-active-config</key>
 				<data>AwoAAA==</data>
 				<key>prev-lang:kbd</key>
